@@ -33,7 +33,7 @@ export default function Experience() {
             </h3>
 
             <p className="text-sm text-textMutedLight dark:text-textMutedDark mb-3">
-              Aug 2025 – Jan 2026
+              July 2025 – Jan 2026
             </p>
 
             <ul className="list-disc list-inside text-sm space-y-1">
