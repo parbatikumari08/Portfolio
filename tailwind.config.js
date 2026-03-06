@@ -5,10 +5,10 @@ export default {
     extend: {
       colors: {
         // Microsoft accent colors
-        msBlue: "#2563eb",
-        msRed: "#dc2626",
-        msYellow: "#facc15",
-        msGreen: "#16a34a",
+         msBlue: '#00A4EF',
+        msRed: '#F25022',
+        msGreen: '#7FBA00',
+        msYellow: '#FFB900',
 
         // Neutral system
         pageLight: "#f3f6fb",
