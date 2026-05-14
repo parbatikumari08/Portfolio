@@ -57,7 +57,7 @@ const projects = [
 
     color: "msGreen",
 
-    live: "YOUR_SAKOYA_LIVE_LINK",
+    live: "https://sakoya-foundation-redesign.vercel.app/",
   },
 ]
 
