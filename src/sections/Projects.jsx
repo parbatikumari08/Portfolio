@@ -106,15 +106,15 @@ export default function Projects() {
           {projects.map((project, index) => {
             // Assign a color based on project title
             let projectColor = msBlue;
-            if (project.title.includes("Travel")) projectColor = msGreen;
-            else if (project.title.includes("Movie")) projectColor = msRed;
-            else if (project.title.includes("Pastebin")) projectColor = msYellow;
+            if (project.title.includes("Travel")) projectColor = msBlue;
+else if (project.title.includes("Pastebin")) projectColor = msYellow;
+else if (project.title.includes("Sakoya")) projectColor = msGreen;
             
             // Project emoji based on title
             let projectEmoji = "💻";
             if (project.title.includes("Travel")) projectEmoji = "✈️";
-            else if (project.title.includes("Movie")) projectEmoji = "🎬";
-            else if (project.title.includes("Pastebin")) projectEmoji = "📋";
+else if (project.title.includes("Pastebin")) projectEmoji = "📋";
+else if (project.title.includes("Sakoya")) projectEmoji = "🌍";
 
             const isExpanded = expandedId === project.id;
             const description = project.description || "";
